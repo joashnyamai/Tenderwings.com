@@ -1,0 +1,84 @@
+Project Overview
+Tender Wings Home is a web-based platform designed to manage donations, caregivers, and beneficiaries for a charitable organization. It includes:
+
+Admin Panel (for managing users and donations)
+
+Caregiver Interface (for managing beneficiaries)
+
+Donor Portal (for making donations and tracking contributions)
+
+Built with:
+
+Frontend: HTML, CSS, JavaScript, Bootstrap
+
+Backend: PHP, MySQL
+
+Server: XAMPP (Apache & MySQL)
+
+Project Setup
+
+Place the project folder in htdocs (e.g., C:\xampp\htdocs\tenderwings.com)
+
+Import the database (.sql file) via phpMyAdmin
+
+Access the Project
+
+Open browser and go to:
+
+http://localhost/tenderwings.com/
+
+Login Credentials
+1. Admin Interface
+ Username: haroibrahim349@gmail.com
+ Password: 0987
+
+Features:
+ Create & manage users (admin, caregiver, donor)
+ Assign roles & permissions
+ View donation reports
+
+2. Caregiver Interface
+ Username: chris
+ Password: 0909
+
+Features:
+Manage beneficiary profiles
+ Track assigned cases
+ Report updates
+
+3. Donor Interface
+ Username: Harold
+ Password: 1212
+
+Features:
+ Make donations
+ View donation history
+ Update profile
+
+How to Create New Users (Admin Panel)
+Log in as Admin
+
+Navigate to Users → Add New
+
+Fill in details (email, password, role)
+
+Click Save
+
+Roles Available:
+
+Admin (Full access)
+
+Caregiver (Limited to beneficiary management)
+
+Donor (Can donate & view history)
+
+Database Structure (MySQL)
+Key Tables:
+
+users 
+donations 
+children
+health records
+incidents
+inventory
+tasks
